@@ -1,0 +1,173 @@
+.mid-area {
+    height: 70vh;
+    width: 100%;
+
+    display: grid;
+    /* gap: 10px; */
+    grid-template-columns: 6fr 4fr;
+    /* grid-template-rows: repeat(10, 1fr); */
+    padding-bottom: 20px;
+
+    background-image: 
+        linear-gradient(90deg, rgba(65, 69, 79, 0.5), rgba(0, 0, 0, 0.5)), 
+        linear-gradient( #41454f , black);
+}
+
+.mid-area > .text-body {
+    /* background-color: rgb(168, 168, 168); */
+    grid-row: span 7;
+
+}
+
+.mid-area > .text-body .Text1 {
+    color: white;
+    font-size: 3em;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-weight: 200;
+}
+
+
+.mid-area > .text-body .Text2 {
+    color: grey;
+    font-size: 2.8em;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-weight: 300;
+}
+
+.mid-area > .image-header {
+    color: white;
+    padding: 20px;
+    display: flex;
+    align-items: flex-end;
+    /* background-color: red; */
+    padding-bottom: 0px;
+    font-size: 1.2em;
+    margin-bottom: -60px;
+    margin-left: 20px;
+    /* height: 200px; */
+    /* grid-row: span 2; */
+}
+
+.mid-area > .image-header p{
+    font-size: 1.2em;
+    margin: 0px;
+}
+
+.mid-area > .acces-buttons {
+    /* background-color: rgb(99, 99, 99); */
+    grid-row-start:8;
+    grid-row-end: 11;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 20px;
+    /* display: flex;
+    justify-content: center; */
+    padding-left: 80px;
+    padding-bottom: 100px;
+}
+
+.mid-area > .acces-buttons > .sign-up-for-free-btn .btn{
+    position: relative;
+    padding: 25px 25px;
+    background: #4bce79;
+    border-radius: 6px;
+    border: none;
+    font-size: 2.5em;
+    transition: 0.2s;
+}
+
+.mid-area > .acces-buttons > .sign-up-for-free-btn .btn:hover{
+    position: relative;
+    padding: 25px 25px;
+    background: #296b40;
+    border-radius: 6px;
+    border: none;
+    font-size: 2.5em;
+    transition: 0.2s;
+    color: white;
+}
+
+.mid-area > .acces-buttons > .sign-up-for-free-btn .btn:active{
+    position: relative;
+    padding: 25px 25px;
+    background: #296b40;
+    border-radius: 6px;
+    border: none;
+    font-size: 2.5em;
+    color: white;
+    transform: translateY(2px);
+}
+.mid-area > .acces-buttons > .learn-more-btn .btn{
+    position: relative;
+    padding: 25px 22px;
+    background: #111111;
+    border-radius: 6px;
+    border: none;
+    font-size: 2.5em;
+    font-weight: 800;
+    color: white;
+    transition: 0.2s;   
+}
+
+.mid-area > .acces-buttons > .learn-more-btn .btn:hover{
+    position: relative;
+    padding: 25px 22px;
+    background: #36383f;
+    border-radius: 6px;
+    border: none;
+    font-size: 2.5em;
+    font-weight: 800;
+    color: white;
+    transition: 0.2s;   
+}
+
+.mid-area > .acces-buttons > .learn-more-btn .btn:active{
+    position: relative;
+    padding: 25px 22px;
+    background: #36383f;
+    border-radius: 6px;
+    border: none;
+    font-size: 2.5em;
+    font-weight: 800;
+    color: white;
+    transform: translateY(-2px); 
+}
+.mid-area > .right-image {
+    /* background-color: rgb(177, 177, 177); */
+    grid-row: span 9;
+    padding: 20px;
+    overflow: hidden;
+    display: flex;  
+    align-items: center;  
+    justify-content: center;  
+    padding-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-bottom: -50px;
+}
+
+.mid-area > .right-image > .website-image img {
+    height: 100%;
+    width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+
+
+}
+
+.mid-area > .right-image > .website-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: center;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
+
+
+}
+
+/* .mid-area > .right-image > .website-image img{
+    box-shadow: 10px 10px 10px black;
+} */

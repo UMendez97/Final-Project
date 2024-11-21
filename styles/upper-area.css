@@ -1,0 +1,264 @@
+/* UPPER AREA STYLES */
+
+.upper-area {
+    height: 100px;
+    width: 100%;
+    background-color: black;
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr;
+    grid-template-rows: 1fr 1fr;
+    /* display: flex; */
+    align-items: center;
+    padding-bottom: 50px;
+    /* padding: 10px 20px; */
+}
+
+/* LEFT COLUMNS STYLES */
+.upper-area > .left-column {
+    height: 130px;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    
+}
+
+.upper-area > .left-column > .logo {
+    height: 60px;
+    width: 260px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-right: 55px;
+    margin-top: 20px;
+}
+
+/* .upper-area > .left-column > .A {
+    width: 60px;
+    color: white;
+    size: 2em;
+}     */
+
+/* MID COLUMNS STYLES */
+.upper-area > .mid-column {
+    height: 100px;
+    width: 100%;
+    padding-right: -100px;
+}
+
+.upper-area > .mid-column > .mid-column-content {
+    margin-top: 15px;
+    height: 60px;
+}
+
+.upper-area > .mid-column > .mid-column-content > .explore {
+    color: #fcef95;
+    font-size: 0.75em;
+
+    
+}
+
+.upper-area > .mid-column > .mid-column-content > .explore h1 {
+    margin: 0px;
+    font-weight: 200;
+}
+.upper-area > .mid-column > .mid-column-content > .links-wrapper{
+    height: 20px;
+    display: grid;
+    grid-template-columns: repeat(4, auto) 2fr;
+    gap: 2rem;
+    justify-content: start;
+    font-weight: 600;
+    font-size: 1.5em;
+}
+
+.upper-area > .mid-column > .mid-column-content > .links-wrapper > .nav-link{
+    height: 20px;
+}
+
+.upper-area > .mid-column > .mid-column-content > .links-wrapper > .nav-link a{
+    color: white;
+    text-decoration: none;
+    height: 20px;
+    transition: 0.2s;
+}
+
+.upper-area > .mid-column > .mid-column-content > .links-wrapper > .nav-link a:hover{
+    color: #fcef95;
+    text-decoration: none;
+    height: 20px;
+    transition: 0.2s;
+}
+
+.upper-area > .mid-column > .mid-column-content > .links-wrapper > .spark{
+    position: relative;
+}
+
+.upper-area > .mid-column > .mid-column-content > .links-wrapper > .spark label {
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.2s;
+    color: white;
+    position: absolute;
+    top: 100%; 
+    left: 0;
+    margin-top: 10px; 
+}
+
+.upper-area > .mid-column > .mid-column-content > .links-wrapper > .spark p:focus + label {
+    opacity: 1;
+    visibility:visible;
+}
+
+
+
+.upper-area > .mid-column > .mid-column-content > .links-wrapper > .spark p{
+    margin: 0px;
+    color: #8c8c8c;
+    text-decoration: none;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    margin-right: 120px;
+    transition: 0.2s;
+    position: relative;
+}
+
+.upper-area > .mid-column > .mid-column-content > .links-wrapper > .spark p:hover{
+    margin: 0px;
+    color: #fcef95;
+    text-decoration: none;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    margin-right: 120px;
+    transition: 0.2s;
+}
+
+
+/* RIGHT COLUMN STYLES */
+
+.right-column > .right-column-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 0.5fr 1fr 1fr;
+    justify-items: center;
+}
+
+.right-column > .right-column-wrapper > .lupa i{
+    color: #8c8c8c;
+    font-size: 4em;
+    transition: 0.2s;
+}
+
+.right-column > .right-column-wrapper > .lupa i:hover{
+    color: #e0e0e0;
+    font-size: 4em;
+}
+
+.right-column > .right-column-wrapper > .create-btn .btn{
+    position: relative;
+    padding: 22px 35px;
+    background: #36383f;
+    border-radius: 6px;
+    border: none;
+    font-size: 1.5em;
+    font-weight: 900;
+    color: white;
+    transition: 0.2s;
+}
+
+.right-column > .right-column-wrapper > .create-btn .btn:hover{
+    position: relative;
+    padding: 22px 35px;
+    background: #191a1d;
+    border-radius: 6px;
+    border: none;
+    font-size: 1.5em;
+    font-weight: 900;
+    color: white;
+    transition: 0.2s;
+}
+
+.right-column > .right-column-wrapper > .create-btn .btn:active{
+    position: relative;
+    padding: 22px 35px;
+    background: #191a1d;
+    border-radius: 6px;
+    border: none;
+    font-size: 1.5em;
+    font-weight: 900;
+    color: white;
+    transform: translateY(2px);
+}
+
+
+
+.right-column > .right-column-wrapper > .log-in-btn .btn{
+    position: relative;
+    padding: 22px 50px;
+    background: #36383f;
+    border-radius: 6px;
+    border: none;
+    font-size: 1.5em;
+    font-weight: 900;
+    color: white;
+    transition: 0.2s;
+}
+
+.right-column > .right-column-wrapper > .log-in-btn .btn:hover{
+    position: relative;
+    padding: 22px 50px;
+    background: #191a1d;
+    border-radius: 6px;
+    border: none;
+    font-size: 1.5em;
+    font-weight: 900;
+    color: white;
+    transition: 0.2s;
+}
+
+.right-column > .right-column-wrapper > .log-in-btn .btn:active{
+    position: relative;
+    padding: 22px 50px;
+    background: #191a1d;
+    border-radius: 6px;
+    border: none;
+    font-size: 1.5em;
+    font-weight: 900;
+    color: white;
+    transition: 0.2s;
+    transform: translateY(2px);
+}
+
+.right-column > .right-column-wrapper > .sing-up-btn .btn{
+    position: relative;
+    padding: 22px 35px;
+    background: #36383f;
+    border-radius: 6px;
+    border: none;
+    font-size: 1.5em;
+    font-weight: 900;
+    color: white;
+    transition: 0.2s;
+}
+.right-column > .right-column-wrapper > .sing-up-btn .btn:hover{
+    position: relative;
+    padding: 22px 35px;
+    background: #191a1d;
+    border-radius: 6px;
+    border: none;
+    font-size: 1.5em;
+    font-weight: 900;
+    color: white;
+    transition: 0.2s;
+}
+.right-column > .right-column-wrapper > .sing-up-btn .btn:active{
+    position: relative;
+    padding: 22px 35px;
+    background: #191a1d;
+    border-radius: 6px;
+    border: none;
+    font-size: 1.5em;
+    font-weight: 900;
+    color: white;
+    transform: translateY(2px);
+}

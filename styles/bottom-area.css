@@ -1,0 +1,21 @@
+.bottom-area {
+    height: 10em;
+    width: 100%;
+    background-color: #191a1d;
+}
+
+.bottom-area > .banner {
+    background-color: #36383f;
+    height: 60px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.bottom-area >.banner > .banner-container {
+    color: white;
+    border: 1px solid rgba(180, 205, 229, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2em;
+}
